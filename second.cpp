@@ -75,14 +75,12 @@ int maxPathSum(vector<int> par,vector<int> values)
 
 }
 
-signed main()
+int main()
 {
-    fast;
+ 
 
-    // cout<<fixed<<setprecision(10);
-
-    int t = 1;
-    // cin >> t;
+    int t ;
+    cin >> t;
 
     while (t--)
     {
