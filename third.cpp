@@ -43,13 +43,13 @@ void solve(){
 
 }
 
-signed main()
+int main()
 {
     fast;
 
-    // cout<<fixed<<setprecision(10);
 
-    int t = 1;
+
+    int t;
     cin >> t;
 
     while (t--)
