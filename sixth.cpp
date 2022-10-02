@@ -12,14 +12,14 @@ public:
     int rollno;
     int yoa;
 
-    StudentInfo(string name, string father_name, string dob, string branch, int rollno, int yoa)
+    StudentInfo(string na, string father, string db, string bran, int roll, int ya)
     {
-        this->name = name;
-        this->father_name = father_name;
-        this->dob = dob;
-        this->branch = branch;
-        this->rollno = rollno;
-        this->yoa = yoa;
+        name = na;
+        father_name = father;
+        dob = db;
+        branch = bran;
+        rollno = roll;
+        yoa = ya;
     };
 };
 
