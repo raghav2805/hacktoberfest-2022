@@ -42,11 +42,16 @@ int main() {
 	int n;
 	cin>>n;
 
-	int arr[n];
+	vector<int>arr;
+	
+
 
 	for(int i=0;i<n;i++)
 	{
-		cin>>arr[i];
+		int a;
+		cin>>a;
+		arr.push_back(a);
+		
 	}
 	
     heapSort(arr, n);
