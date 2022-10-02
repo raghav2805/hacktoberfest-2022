@@ -107,11 +107,12 @@ void solve(){
 
 signed main()
 {
-    fast;
+//     fast;
+    //no need for fast
 
     // cout<<fixed<<setprecision(10);
 
-    int t = 1;
+    int t;
     cin >> t;
 
     while (t--)
